@@ -2049,5 +2049,9 @@ return k({},n(this))}function Bc(){return n(this).overflow}function Cc(){return{
 
 })(this);
 
-"use strict";
+'use strict';
+
+$(document).ready(function () {
+  $('#home').height($(window).height() - 20);
+});
 //# sourceMappingURL=script.js.map
